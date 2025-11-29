@@ -49,14 +49,15 @@ Certifique-se de que seu repositório contém os seguintes arquivos:
 
 1. Acesse [https://supabase.com](https://supabase.com) e crie um projeto
 2. Vá em **SQL Editor** e execute o script `sql/livros.sql`
-3. Copie suas credenciais em **Settings** → **API**:
+3. Desabilite o `Confirm email` nas **Configurações do Projeto** em **Authentication** e salve
+4. Copie suas credenciais em **Settings** → **API**:
    - `Project URL` = SUPABASE_URL
    - `anon public key` = SUPABASE_ANON_KEY
 
 #### 3. Criar Web Service no Render
 
 1. Acesse [https://dashboard.render.com](https://dashboard.render.com)
-2. Clique em **"New +"** e selecione **"Web Service"**
+2. Clique em **"+ New ou + Add new"** e selecione **"Web Service"**
 3. Conecte seu repositório Git (autorize o acesso se necessário)
 4. Selecione o repositório do projeto
 
@@ -64,7 +65,7 @@ Certifique-se de que seu repositório contém os seguintes arquivos:
 
 Preencha as seguintes informações:
 
-- **Name**: `livros-api` (ou nome de sua preferência)
+- **Name**: `api-livros` (ou nome de sua preferência)
 - **Region**: Escolha a região mais próxima (ex: `Oregon (US West)`)
 - **Branch**: `main` (ou sua branch principal)
 - **Runtime**: `Python 3`
@@ -109,7 +110,7 @@ Na seção **Environment Variables**, adicione as seguintes variáveis:
 #### 8. Acessar sua API
 
 Após o deploy bem-sucedido:
-- Sua API estará disponível em: `https://livros-api.onrender.com` (substitua pelo seu nome)
+- Sua API estará disponível em: `https://livros-api.onrender.com` (substitua pelo seu link)
 - Acesse a documentação interativa em: `https://livros-api.onrender.com/docs`
 
 ### ⚙️ Configurações Adicionais
