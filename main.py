@@ -54,7 +54,6 @@ def auth_headers() -> dict:
     return {"apikey": ANON_KEY, "Content-Type": "application/json"}
 
 async def request_supabase(method: str, url: str, **kwargs):
-    """Função centralizada para requisições HTTP + validação de erro."""
     async with httpx.AsyncClient(timeout=10) as client:
         r = await client.request(method, url, **kwargs)
 
@@ -82,6 +81,10 @@ async def get_user_id(auth=Depends(get_user_token)):
     )
     return data["id"]
 
+
+@app.get("/health")
+async def health():
+    return {"status": "ok"}
 
 @app.post("/auth/registrar", status_code=201)
 async def registrar(usuario: Usuario):
