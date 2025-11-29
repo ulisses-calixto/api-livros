@@ -65,7 +65,7 @@ Certifique-se de que seu repositório contém os seguintes arquivos:
 
 Preencha as seguintes informações:
 
-- **Name**: `livros-api` (ou nome de sua preferência)
+- **Name**: `api-livros` (ou nome de sua preferência)
 - **Region**: Escolha a região mais próxima (ex: `Oregon (US West)`)
 - **Branch**: `main` (ou sua branch principal)
 - **Runtime**: `Python 3`
