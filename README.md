@@ -49,7 +49,8 @@ Certifique-se de que seu repositório contém os seguintes arquivos:
 
 1. Acesse [https://supabase.com](https://supabase.com) e crie um projeto
 2. Vá em **SQL Editor** e execute o script `sql/livros.sql`
-3. Copie suas credenciais em **Settings** → **API**:
+3. Desabilite o `Confirm email` nas **Configurações do Projeto** em **Authentication** e salve
+4. Copie suas credenciais em **Settings** → **API**:
    - `Project URL` = SUPABASE_URL
    - `anon public key` = SUPABASE_ANON_KEY
 
