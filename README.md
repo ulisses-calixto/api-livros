@@ -109,7 +109,7 @@ Na seção **Environment Variables**, adicione as seguintes variáveis:
 #### 8. Acessar sua API
 
 Após o deploy bem-sucedido:
-- Sua API estará disponível em: `https://livros-api.onrender.com` (substitua pelo seu nome)
+- Sua API estará disponível em: `https://livros-api.onrender.com` (substitua pelo seu link)
 - Acesse a documentação interativa em: `https://livros-api.onrender.com/docs`
 
 ### ⚙️ Configurações Adicionais
