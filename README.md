@@ -2,6 +2,8 @@
 
 API de gerenciamento de livros desenvolvida com FastAPI e Supabase.
 
+Confira a API rodando no Render: [https://api-livros-fwn5.onrender.com/health](https://api-livros-fwn5.onrender.com/health)
+
 ## 🚀 Como rodar o projeto localmente
 
 1. Instale as dependências:
@@ -110,8 +112,8 @@ Na seção **Environment Variables**, adicione as seguintes variáveis:
 #### 8. Acessar sua API
 
 Após o deploy bem-sucedido:
-- Sua API estará disponível em: `https://livros-api.onrender.com` (substitua pelo seu link)
-- Acesse a documentação interativa em: `https://livros-api.onrender.com/docs`
+- Sua API estará disponível em: `https://api-livros.onrender.com/health` (substitua pelo seu link)
+- Acesse a documentação interativa em: `https://api-livros.onrender.com/docs`
 
 ### ⚙️ Configurações Adicionais
 
