@@ -57,7 +57,7 @@ Certifique-se de que seu repositório contém os seguintes arquivos:
 #### 3. Criar Web Service no Render
 
 1. Acesse [https://dashboard.render.com](https://dashboard.render.com)
-2. Clique em **"New +"** e selecione **"Web Service"**
+2. Clique em **"+ New ou + Add new"** e selecione **"Web Service"**
 3. Conecte seu repositório Git (autorize o acesso se necessário)
 4. Selecione o repositório do projeto
 
